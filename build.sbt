@@ -208,7 +208,7 @@ lazy val shuttle = (project in file("generators/shuttle"))
   .settings(libraryDependencies ++= rocketLibDeps.value)
   .settings(commonSettings)
 
-lazy val saturn = (project in file("generators/saturn"))
+lazy val saturn = freshProject("saturn", file("generators/saturn"))
   .dependsOn(rocketchip)
   .settings(libraryDependencies ++= rocketLibDeps.value)
   .settings(commonSettings)
