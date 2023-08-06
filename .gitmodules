@@ -127,3 +127,6 @@
 [submodule "generators/bar-fetchers"]
 	path = generators/bar-fetchers
 	url = https://github.com/ucb-bar/bar-fetchers.git
+[submodule "sims/firesim"]
+	path = sims/firesim
+	url = https://github.com/myonie-git/firesim.git
